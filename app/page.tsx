@@ -1,22 +1,24 @@
-import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
-import Packages from '@/components/Packages';
-import Portfolio from '@/components/Portfolio';
-import About from '@/components/About';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import WhoWeAre from '@/components/WhoWeAre';
+import AffordableData from '@/components/AffordableData';
+import Testamonial from '@/components/Testamonial';
+import Faq from '@/components/Faq';
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <main>
         <Hero />
+        <WhoWeAre/>
         <Services />
-        <Packages />
-        <Portfolio />
-        <About />
-        <Contact />
+        {/* <Packages /> */}
+        <AffordableData/>
+        {/* <Portfolio /> */}
+        <Testamonial/>
+        {/* <About /> */}
+        <Faq/>
+        {/* <Contact /> */}
       </main>
     </div>
   );

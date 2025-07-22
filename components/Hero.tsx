@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import { Button } from '@/components/ui/button';
@@ -37,7 +39,8 @@ export default function Hero() {
               <div className="relative block w-full bg-yellow-500 rounded-lg overflow-hidden aspect-square">
                 <img
                   className="w-full h-full object-cover"
-                  src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  // src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src='/images/Untitled-1-02.png'
                   alt="Creative digital workspace"
                 />
                 <div className="absolute inset-0 bg-yellow-500 mix-blend-multiply opacity-20"></div>
